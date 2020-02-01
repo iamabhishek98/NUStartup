@@ -1,0 +1,163 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_height="match_parent"
+    android:layout_width="match_parent"
+    tools:context=".StartUpInfo">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <ImageView
+            android:id="@+id/infoStartUpPicHolder"
+            android:layout_width="match_parent"
+            android:layout_height="240dp"
+            android:scaleType="centerCrop"
+            android:src="@drawable/start_up_banner" />
+
+        <TextView
+            android:id="@+id/infoStartUpNameHolder"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="12dp"
+            android:layout_marginTop="12sp"
+            android:fontFamily="@font/roboto_slab"
+            android:gravity="center_horizontal"
+            android:text="Start Up Name"
+            android:textColor="@android:color/black"
+            android:textSize="24sp" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="12dp"
+            android:layout_marginTop="12sp"
+            android:fontFamily="@font/roboto_slab"
+            android:text="Our Idea"
+            android:textColor="@android:color/black"
+            android:textSize="20sp" />
+
+        <TextView
+            android:id="@+id/infoStartUpIdeaHolder"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="12dp"
+            android:layout_marginTop="8sp"
+            android:layout_marginRight="12dp"
+            android:fontFamily="@font/roboto_slab"
+            android:text="This is some description about the start up. Just some filler text"
+            android:textColor="#6F6B6B"
+            android:textSize="16sp"
+            android:textStyle="bold" />
+
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="12dp"
+            android:layout_marginTop="12sp"
+            android:fontFamily="@font/roboto_slab"
+            android:text="Skills we are looking for:"
+            android:textColor="@android:color/black"
+            android:textSize="20sp" />
+
+        <TextView
+            android:id="@+id/infoStartUpSkillsHolder"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="12dp"
+            android:layout_marginTop="8sp"
+            android:layout_marginRight="12dp"
+            android:fontFamily="@font/roboto_slab"
+            android:text="I no firebase"
+            android:textColor="#6F6B6B"
+            android:textSize="16sp"
+            android:textStyle="bold" />
+
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="12dp"
+            android:layout_marginTop="12sp"
+            android:fontFamily="@font/roboto_slab"
+            android:text="Founder"
+            android:textColor="@android:color/black"
+            android:textSize="20sp" />
+
+        <TextView
+            android:id="@+id/infoStartUpFounderHolder"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="12dp"
+            android:layout_marginTop="8sp"
+            android:layout_marginRight="12dp"
+            android:fontFamily="@font/roboto_slab"
+            android:text="Name of the founder"
+            android:textColor="#6F6B6B"
+            android:textSize="16sp"
+            android:textStyle="bold" />
+
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="12dp"
+            android:layout_marginTop="12sp"
+            android:fontFamily="@font/roboto_slab"
+            android:text="Our Location"
+            android:textColor="@android:color/black"
+            android:textSize="20sp" />
+
+        <TextView
+            android:id="@+id/infoStartUpLocationHolder"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="12dp"
+            android:layout_marginTop="8sp"
+            android:layout_marginRight="12dp"
+            android:fontFamily="@font/roboto_slab"
+            android:text="This is some description about the start up. Just some filler text"
+            android:textColor="#6F6B6B"
+            android:textSize="16sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="12dp"
+            android:layout_marginTop="12sp"
+            android:fontFamily="@font/roboto_slab"
+            android:text="Contact Us"
+            android:textColor="@android:color/black"
+            android:textSize="20sp" />
+
+        <TextView
+            android:id="@+id/infoStartUpContacHolder"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="12dp"
+            android:layout_marginTop="8sp"
+            android:layout_marginRight="12dp"
+            android:fontFamily="@font/roboto_slab"
+            android:text="699669"
+            android:textColor="#6F6B6B"
+            android:textSize="16sp"
+            android:textStyle="bold" />
+
+        <Button
+            android:id="@+id/infoStartUpJoinRequest"
+            android:layout_width="320dp"
+            android:layout_height="57dp"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="8dp"
+            android:layout_marginBottom="12dp"
+            android:fontFamily="@font/roboto_slab"
+            android:text="Request to Join"
+            android:textAllCaps="false"
+            android:textSize="18sp" />
+    </LinearLayout>
+</ScrollView>

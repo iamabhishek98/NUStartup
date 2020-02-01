@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/navigation_feed"
+        android:icon="@drawable/menu"
+        android:title="Feed"/>
+    <item
+        android:id="@+id/navigation_notifications"
+        android:icon="@drawable/alert"
+        android:title="Notifications" />
+    <item
+        android:id="@+id/navigation_groups"
+        android:icon="@drawable/groups"
+        android:title="Groups"/>
+    <item
+        android:id="@+id/navigation_startup"
+        android:icon="@drawable/add"
+        android:title="Create Startup" />
+    <item
+        android:id="@+id/navigation_profile"
+        android:icon="@drawable/profile"
+        android:title="Your profile" />
+</menu>

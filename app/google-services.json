@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "35985324156",
+    "firebase_url": "https://nustartup-aa859.firebaseio.com",
+    "project_id": "nustartup-aa859",
+    "storage_bucket": "nustartup-aa859.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:35985324156:android:0bf43a176dd0b99164f1f9",
+        "android_client_info": {
+          "package_name": "orbital.gns.nustartup"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "35985324156-7s6n0s9ffuq28fuqfjhh6o1oklfd0k7r.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "orbital.gns.nustartup",
+            "certificate_hash": "8b95bbc95e87e1a8def2cdcf62e22a6e9b370d16"
+          }
+        },
+        {
+          "client_id": "35985324156-ckmgfg75qh99ejhc5bunuffvm947a5mb.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDJ5sFYJ0x9jN3QER8eViIxmMNduB3ptFE"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "35985324156-ckmgfg75qh99ejhc5bunuffvm947a5mb.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

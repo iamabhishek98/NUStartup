@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/frameLayout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".AcceptReject">
+
+    <ScrollView
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_marginBottom="100dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="center_horizontal"
+            android:orientation="vertical">
+
+            <de.hdodenhof.circleimageview.CircleImageView
+                android:id="@+id/image_view"
+                android:layout_width="146dp"
+                android:layout_height="158dp"
+                android:layout_marginTop="16dp"
+                android:src="@drawable/profile"
+                app:civ_border_color="#FF000000"
+                app:civ_border_width="2dp"/>
+
+            <TextView
+                android:id="@+id/infoStartUpNameHolder"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="12dp"
+                android:layout_marginTop="12sp"
+                android:fontFamily="@font/roboto_slab"
+                android:gravity="center_horizontal"
+                android:text="Start Up Name"
+                android:textColor="@android:color/black"
+                android:textSize="24sp" />
+
+<!--            <TextView-->
+<!--                android:layout_width="match_parent"-->
+<!--                android:layout_height="wrap_content"-->
+<!--                android:layout_marginLeft="12dp"-->
+<!--                android:layout_marginTop="12sp"-->
+<!--                android:fontFamily="@font/roboto_slab"-->
+<!--                android:text="Our Idea"-->
+<!--                android:textColor="@android:color/black"-->
+<!--                android:textSize="20sp" />-->
+
+<!--            <TextView-->
+<!--                android:id="@+id/infoStartUpIdeaHolder"-->
+<!--                android:layout_width="match_parent"-->
+<!--                android:layout_height="wrap_content"-->
+<!--                android:layout_marginLeft="12dp"-->
+<!--                android:layout_marginTop="8sp"-->
+<!--                android:layout_marginRight="12dp"-->
+<!--                android:fontFamily="@font/roboto_slab"-->
+<!--                android:text="This is some description about the start up. Just some filler text"-->
+<!--                android:textColor="#6F6B6B"-->
+<!--                android:textSize="16sp"-->
+<!--                android:textStyle="bold" />-->
+<!--            -->
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="horizontal"
+                android:weightSum="2">
+
+                <Button
+                    android:id="@+id/saveButton"
+                    android:layout_width="0dp"
+                    android:layout_weight="1"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="12dp"
+                    android:fontFamily="@font/roboto_slab"
+                    android:text="Accept" />
+
+                <Button
+                    android:id="@+id/logoutButton1"
+                    android:layout_width="0dp"
+                    android:layout_weight="1"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="12dp"
+                    android:fontFamily="@font/roboto_slab"
+                    android:text="Reject" />
+
+            </LinearLayout>
+
+        </LinearLayout>
+    </ScrollView>
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

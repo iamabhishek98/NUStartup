@@ -1,0 +1,183 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".CreateStartUp">
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="240dp"
+        android:background="@drawable/upload_ph"
+        android:fontFamily="@font/roboto_slab"
+        android:gravity="bottom|center"
+        android:text="Upload Image"
+        android:textAllCaps="false"
+        android:textColor="@android:color/white"
+        android:textSize="28sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/startUpNameText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="12dp"
+        android:layout_marginTop="12dp"
+        android:layout_marginRight="12dp"
+        android:fontFamily="@font/roboto_slab"
+        android:text="Start Up Name: "
+        android:textColor="@android:color/black"
+        android:textSize="24sp" />
+
+    <EditText
+        android:id="@+id/startUpNameHolder"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="12dp"
+        android:layout_marginRight="12dp"
+        android:fontFamily="@font/roboto_slab"
+        android:hint="Enter name"
+        android:singleLine="true"
+        android:textSize="20sp" />
+
+    <TextView
+        android:id="@+id/startUpIdeaText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="12dp"
+        android:layout_marginTop="12dp"
+        android:layout_marginRight="12dp"
+        android:fontFamily="@font/roboto_slab"
+        android:text="Start Up Idea: "
+        android:textColor="@android:color/black"
+        android:textSize="24sp" />
+
+    <EditText
+        android:id="@+id/startUpIdeaHolder"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="12dp"
+        android:layout_marginRight="12dp"
+        android:fontFamily="@font/roboto_slab"
+        android:hint="Enter idea"
+        android:singleLine="false"
+        android:textSize="20sp" />
+
+    <TextView
+        android:id="@+id/startUpSkillsText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="12dp"
+        android:layout_marginTop="12dp"
+        android:layout_marginRight="12dp"
+        android:fontFamily="@font/roboto_slab"
+        android:text="Skill Sets Required: "
+        android:textColor="@android:color/black"
+        android:textSize="24sp" />
+
+    <EditText
+        android:id="@+id/startUpSkillsHolder"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="12dp"
+        android:layout_marginRight="12dp"
+        android:fontFamily="@font/roboto_slab"
+        android:hint="Looking for..."
+        android:singleLine="false"
+        android:textSize="20sp" />
+
+    <TextView
+        android:id="@+id/startUpFounderText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="12dp"
+        android:layout_marginTop="12dp"
+        android:layout_marginRight="12dp"
+        android:fontFamily="@font/roboto_slab"
+        android:text="Founder: "
+        android:textColor="@android:color/black"
+        android:textSize="24sp" />
+
+    <EditText
+        android:id="@+id/startUpFounderHolder"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="12dp"
+        android:layout_marginRight="12dp"
+        android:fontFamily="@font/roboto_slab"
+        android:hint="Founder"
+        android:singleLine="false"
+        android:textSize="20sp" />
+
+    <TextView
+        android:id="@+id/startUpLocationText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="12dp"
+        android:layout_marginTop="12dp"
+        android:layout_marginRight="12dp"
+        android:fontFamily="@font/roboto_slab"
+        android:text="Location: "
+        android:textColor="@android:color/black"
+        android:textSize="24sp" />
+
+    <EditText
+        android:id="@+id/startUpLocationHolder"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="12dp"
+        android:layout_marginRight="12dp"
+        android:fontFamily="@font/roboto_slab"
+        android:hint="Enter location"
+        android:singleLine="false"
+        android:textSize="20sp" />
+
+    <TextView
+        android:id="@+id/startUpContactText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="12dp"
+        android:layout_marginTop="12dp"
+        android:layout_marginRight="12dp"
+        android:fontFamily="@font/roboto_slab"
+        android:text="Contact Details: "
+        android:textColor="@android:color/black"
+        android:textSize="24sp" />
+
+    <EditText
+        android:id="@+id/startUpContactHolder"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="12dp"
+        android:layout_marginRight="12dp"
+        android:fontFamily="@font/roboto_slab"
+        android:hint="Contact"
+        android:singleLine="false"
+        android:textSize="20sp" />
+
+    <Button
+        android:id="@+id/uploadVideoButton"
+        android:layout_width="140dp"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="12dp"
+        android:layout_marginTop="12dp"
+        android:fontFamily="@font/roboto_slab"
+        android:text="Upload Video" />
+
+    <Button
+        android:id="@+id/submitButton"
+        android:layout_width="140dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="12dp"
+        android:fontFamily="@font/roboto_slab"
+        android:text="Submit" />
+
+
+</LinearLayout>
+</ScrollView>

@@ -1,0 +1,31 @@
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/relativeLayout"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:padding="10dp">
+
+    <TextView
+        android:id="@+id/personName"
+        android:layout_width="wrap_content"
+        android:layout_height="50dp"
+        android:gravity="center"
+        android:layout_marginStart="16dp"
+        android:layout_marginEnd="16dp"
+        android:fontFamily="@font/roboto_slab"
+        android:text="Googlup StartDown"
+        android:textSize="18sp"
+        />
+
+<!--    <TextView-->
+<!--        android:id="@+id/companyName"-->
+<!--        android:layout_width="wrap_content"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:fontFamily="@font/roboto_slab"-->
+<!--        android:text="Would like to"-->
+<!--        android:layout_marginLeft="16dp"-->
+<!--        android:layout_below="@id/personName"-->
+<!--        android:layout_toRightOf="@id/postLogo"/>-->
+</RelativeLayout>

@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/frameLayout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ProfileFragment">
+
+    <!-- TODO: Update blank fragment layout -->
+
+    <ScrollView
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_marginBottom="100dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="center_horizontal"
+            android:orientation="vertical">
+            
+            <de.hdodenhof.circleimageview.CircleImageView
+                android:id="@+id/image_view"
+                android:layout_width="146dp"
+                android:layout_height="158dp"
+                android:layout_marginTop="4dp"
+                android:src="@drawable/profile"
+                app:civ_border_color="#FF000000"
+                app:civ_border_width="2dp"/>
+
+                        <!--            <Button-->
+<!--                android:id="@+id/image_circle"-->
+<!--                android:layout_width="150dp"-->
+<!--                android:layout_height="150dp"-->
+<!--                android:layout_marginTop="4dp"-->
+<!--                android:background="@drawable/btn_background"-->
+<!--                android:alpha="0.25"/>-->
+
+<!--            <de.hdodenhof.circleimageview.CircleImageView-->
+<!--                android:id="@+id/profile_image"-->
+<!--                android:layout_width="146dp"-->
+<!--                android:layout_height="158dp"-->
+<!--                android:layout_marginTop="4dp"-->
+<!--                android:src="@drawable/profile"-->
+<!--                app:civ_border_color="#FF000000"-->
+<!--                app:civ_border_width="2dp" />-->
+
+            <EditText
+                android:id="@+id/nameTextView"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:layout_marginStart="8dp"
+                android:layout_marginTop="8dp"
+                android:layout_marginEnd="8dp"
+                android:background="@drawable/roundedbutton"
+                android:fontFamily="@font/roboto_slab"
+                android:gravity="center"
+                android:hint="Name"
+                android:textSize="20sp" />
+
+            <EditText
+                android:id="@+id/phoneNumberText"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:layout_marginTop="16dp"
+                android:background="@drawable/roundedbutton"
+                android:ems="10"
+                android:fontFamily="@font/roboto_slab"
+                android:hint="Phone Number"
+                android:inputType="phone"
+                android:textAlignment="center"
+                android:textSize="20sp" />
+
+            <EditText
+                android:id="@+id/bioTextView"
+                android:layout_width="match_parent"
+                android:layout_height="150dp"
+                android:layout_marginTop="16dp"
+                android:background="@drawable/roundedbutton"
+                android:fontFamily="@font/roboto_slab"
+                android:gravity="center"
+                android:hint="Biography"
+                android:textSize="20sp" />
+
+            <EditText
+                android:id="@+id/linkedinTextView"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:layout_marginTop="16dp"
+                android:background="@drawable/roundedbutton"
+                android:fontFamily="@font/roboto_slab"
+                android:gravity="center"
+                android:hint="Linkedin Url"
+                android:textSize="20sp" />
+
+            <Button
+                android:id="@+id/saveButton"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="12dp"
+                android:fontFamily="@font/roboto_slab"
+                android:text="Save Profile" />
+
+            <Button
+                android:id="@+id/logoutButton1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="2dp"
+                android:fontFamily="@font/roboto_slab"
+                android:text="Logout" />
+        </LinearLayout>
+    </ScrollView>
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
